@@ -1,6 +1,6 @@
 "use client";
 import Alterbone from "@/public/images/v1/droppa.png";
-import Carbonia from "@/public/images/v1/pnfleet.png";
+import Carbonia from "@/public/images/v1/onfleet.png";
 import Logoipsum from "@/public/images/v1/indrive.png";
 import Tinygone from "@/public/images/v1/zulzi.png";
 import Image from "next/image";
