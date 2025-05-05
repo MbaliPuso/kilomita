@@ -1,18 +1,13 @@
 "use client";
-import Alterbone from "@/public/images/v1/alterbone.png";
-import Carbonia from "@/public/images/v1/carbonia.png";
-import Logoipsum from "@/public/images/v1/logoipsum.png";
-import Tinygone from "@/public/images/v1/tinygone.png";
-import Waverio from "@/public/images/v1/waverio.png";
+import Alterbone from "@/public/images/v1/droppa.png";
+import Carbonia from "@/public/images/v1/pnfleet.png";
+import Logoipsum from "@/public/images/v1/indrive.png";
+import Tinygone from "@/public/images/v1/zulzi.png";
 import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const sliderData = [
-	{
-		id: crypto.randomUUID(),
-		img: Waverio,
-	},
 	{
 		id: crypto.randomUUID(),
 		img: Logoipsum,
@@ -28,10 +23,6 @@ const sliderData = [
 	{
 		id: crypto.randomUUID(),
 		img: Tinygone,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Waverio,
 	},
 	{
 		id: crypto.randomUUID(),
