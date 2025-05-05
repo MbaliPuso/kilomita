@@ -34,6 +34,18 @@ function ContactForm() {
 					</div>
 					<div className="col-lg-6">
 						<div className="sofax-main-field">
+							<Field label="Contact" error={errors.contact}>
+								<input
+									{...register("contact", { required: "Contact is required." })}
+									type="text"
+									name="contact"
+									id="name"
+								/>
+							</Field>
+						</div>
+					</div>
+					<div className="col-lg-12">
+						<div className="sofax-main-field">
 							<Field label="Enter email address" error={errors.email}>
 								<input
 									{...register("email", { required: "Email is required." })}
@@ -50,14 +62,14 @@ function ContactForm() {
 							<textarea name="textarea" placeholder="Write Your Comment"></textarea>
 						</div>
 					</div>
-					<div className="col-lg-12">
+					{/* <div className="col-lg-12">
 						<div className="sofax-form-box">
 							<input type="checkbox" id="css" />
 							<label htmlFor="css">
 								Save my name, email, & website in this browser for the next time I comment.
 							</label>
 						</div>
-					</div>
+					</div> */}
 					<div className="col-lg-12">
 						<div className="tac">
 							<button id="sofax-submit-btn" className="mt-30" type="submit">
