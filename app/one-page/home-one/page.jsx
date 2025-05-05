@@ -4,7 +4,7 @@ import Integrations from "@/components/home/home-one/integrations";
 import LogoSlider from "@/components/home/home-one/logo-slider";
 import PricePlan from "@/components/home/home-one/price-plan";
 import Services from "@/components/home/home-one/offers";
-import Testimonial from "@/components/home/home-one/testimonial";
+import PlatformSlider from "@/components/home/home-one/platforms-slider";
 import WhyChooseUs from "@/components/home/home-one/why-choose-us";
 
 function HomeOne() {
@@ -14,9 +14,8 @@ function HomeOne() {
 			<LogoSlider />
 			<Services />
 			<WhyChooseUs />
-			<PricePlan />
+			<PlatformSlider />
 			<Integrations />
-			<Testimonial />
 			<Cta />
 		</>
 	);

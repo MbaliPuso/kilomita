@@ -6,7 +6,7 @@ import FadeInUp from "../../../animation/FadeInUp";
 function HeroThumbs() {
 	return (
 		<FadeInUp className="sofax-hero-thumb1">
-			<Image src={Dashboard} alt="kiloMITA Dashboard" />
+			<Image src={Dashboard} alt="kiloMITA Dashboard" className="d-block m-auto" />
 			<div className="sofax-hero-shape">
 				<Image src={Shape1} alt="shape" />
 			</div>
