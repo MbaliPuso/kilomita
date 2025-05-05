@@ -95,8 +95,8 @@ function WhyChooseUs() {
 							</p> */}
               <div className="extra-mt">
                 <div className="sofax-iconbox-wrap2">
-                  <div className="sofax-iconbox-icon2">
-                    <Image src={Icon9} alt="icon" />
+                <div className="sofax-iconbox-icon2">
+                    <Image src={Icon4} alt="icon" />
                   </div>
                   <div className="sofax-iconbox-data2">
                     <h4>Easy Onboarding</h4>
