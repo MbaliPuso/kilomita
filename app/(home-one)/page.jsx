@@ -11,7 +11,6 @@ function HomeOne() {
 	return (
 		<>
 			<HeroSection />
-			<LogoSlider />
 			<Offers />
 			<WhyChooseUs />
 			<Services />
