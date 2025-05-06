@@ -1,6 +1,7 @@
 import Card from "@/public/images/v1/card.png";
 import CheckCircle from "@/public/images/v1/check-circle.png";
 import Contentimg2 from "@/public/images/v1/contentimg2.png";
+import Contentimg3 from "@/public/images/v1/scooter.png";
 import ContentThumb from "@/public/images/v1/contentthumb1.jpg";
 import Icon4 from "@/public/images/v1/icon4.png";
 import Shape3 from "@/public/images/v1/shape3.png";
@@ -75,17 +76,10 @@ function WhyChooseUs() {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-md-7">
-            <Image />
-          </div>
-          <div className="col-md-5"></div>
-        </div>
-      </div>
-      <div className="container">
-        <div className="row">
           <div className="col-lg-5 order-lg-2">
             <FadeInRight className="sofax-content-img2 position-ralatiove ml-31">
-              <Image src={Contentimg2} alt="Thumbs" />
+              <Image src={Contentimg2} alt="kilomita app screen" />
+              <Image src={Contentimg3} className="scooter" alt="kilomita scooter delivery" />
               <div className="sofax-content-shape-v1">
                 <Image src={Shape3} alt="shape" />
               </div>
@@ -104,6 +98,7 @@ function WhyChooseUs() {
                 <div className="sofax-iconbox-wrap2">
                 <div className="sofax-iconbox-icon2">
                     <Image src={Icon4} alt="icon" />
+                    <Image />
                   </div>
                   <div className="sofax-iconbox-data2">
                     <h4>Easy Onboarding</h4>

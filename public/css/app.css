@@ -5943,6 +5943,14 @@ a.sofax-connect-login img {
 	padding: 28px 20px;
 	border-radius: 20px;
 }
+
+.sofax-content-img2 .scooter {
+	max-width: 300px;
+    position: absolute;
+    top: 470px;
+    left: 280px;
+}
+
 @media (max-width: 991px) {
 	.sofax-content-img {
 		margin-bottom: 40px !important;
