@@ -19,8 +19,8 @@ function ContactInfo() {
 					<Image src={Icon2} alt="Call icon" />
 				</div>
 				<div className="sofax-iconbox-data2">
-					<h4>Give us a call</h4>
-					<p>Give us a ring at 063 782 7289. Every Monday-Friday from 8 am to 5 pm.</p>
+					<h4>Whatsapp Us</h4>
+					<p>Text us on 063 782 7289. Every Monday-Friday from 8 am to 5 pm.</p>
 				</div>
 			</div>
 			<div className="sofax-iconbox-wrap2">
