@@ -15,7 +15,7 @@ const servicesData = [
 			"Ensure your drivers stay on the road with our seamless fuel financing options.​",
 	},
 	{
-		id: crypto.randomUUID(),
+		id: crypto.randomUUID(),                                                                                                                                                                              
 		icon: Icon2,
 		title: "E-commerce Delivery Operators",
 		description:

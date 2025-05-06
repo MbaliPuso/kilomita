@@ -101,7 +101,7 @@ function LogoSlider() {
 				<div className="sofax-title-section">
 					<h4>Driver Platforms we Support</h4>
 				</div>
-				<div className="sofax-brand-slider d-flex align-items-center">
+				<div className="sofax-brand-slider">
 					{
 						<Swiper {...swiperSettings}>
 							{sliderData.map((item) => (
