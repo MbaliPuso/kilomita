@@ -1,5 +1,9 @@
 "use client";
+import StandardBank from "@/public/images/v1/standard-bank-logo.png";
+import Zulzi from "@/public/images/v1/zulzi-logo.png";
 import InDrive from "@/public/images/v1/indrive-logo.png";
+import Droppa from "@/public/images/v1/droppa-logo.png";
+import Onfleet from "@/public/images/v1/onfleet-logo.png";
 import Uber from "@/public/images/v1/uber-logo.png";
 import UberEats from "@/public/images/v1/uber-eats.png";
 import Bolt from "@/public/images/v1/bolt-logo.png";
@@ -11,15 +15,23 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const sliderData = [
 	{
 		id: crypto.randomUUID(),
+		img: Zulzi,
+	},
+	{
+		id: crypto.randomUUID(),
 		img: InDrive,
 	},
 	{
 		id: crypto.randomUUID(),
-		img: Uber,
+		img: StandardBank,
 	},
 	{
 		id: crypto.randomUUID(),
-		img: UberEats,
+		img: Droppa,
+	},
+	{
+		id: crypto.randomUUID(),
+		img: Onfleet,
 	},
 	{
 		id: crypto.randomUUID(),
@@ -31,43 +43,11 @@ const sliderData = [
 	},
 	{
 		id: crypto.randomUUID(),
-		img: InDrive,
-	},
-	{
-		id: crypto.randomUUID(),
 		img: Uber,
 	},
 	{
 		id: crypto.randomUUID(),
 		img: UberEats,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Bolt,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: MrDelivery,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: InDrive,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Uber,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: UberEats,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Bolt,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: MrDelivery,
 	},
 ];
 
@@ -99,7 +79,7 @@ function LogoSlider() {
 		<section className="sofax-slider-section">
 			<div className="container">
 				<div className="sofax-title-section">
-					<h4>Driver Platforms we Support</h4>
+					<h4>Our Partners and Driver Platforms we support</h4>
 				</div>
 				<div className="sofax-brand-slider">
 					{
@@ -107,7 +87,7 @@ function LogoSlider() {
 							{sliderData.map((item) => (
 								<SwiperSlide key={item.id}>
 									<div className="sofax-logo-icon-item">
-										<Image src={item.img} alt="logo slider" />
+										<Image src={item.img} alt="Partners and platforms kilomita supports" />
 									</div>
 								</SwiperSlide>
 							))}

@@ -18,6 +18,7 @@
 	--heading-color: #0e0e0e;
 	--body-color: #3c3c3c;
 	--accent-color: #A7E830;
+	--accent-color-light: #E9F9D1;
 	--light-bg: #f9f9fa;
 	--dark-bg: #0e0e0e;
 	--white-bg: #fff;
@@ -1924,6 +1925,7 @@ header.sofax-header-section {
 	top: 0;
 	padding: 15px 0;
 	transition: all 0.4s;
+	border-bottom: 3px solid #68a81e;
 }
 
 header.sofax-header-section.sticky-menu {
@@ -3248,6 +3250,7 @@ h1.post__title {
 
 .sofax-hero-section {
 	padding-top: 190px;
+	background-color: var(--accent-color-light);
 }
 @media (max-width: 991px) {
 	.sofax-hero-section {
@@ -3268,8 +3271,8 @@ h1.post__title {
 	margin-right: 12%;
 }
 .sofax-hero-content.center {
-	text-align: center;
-	max-width: 1074px;
+	/* text-align: center;
+	max-width: 1074px; */
 	margin: 0 auto;
 	margin-bottom: 50px;
 }
@@ -3288,6 +3291,11 @@ h1.post__title {
 		margin-bottom: 30px;
 	}
 }
+
+.hero-section-image img {
+	border-radius: 30px;
+}
+
 .sofax-hero-content.center.max-width-medium {
 	text-align: center;
 	max-width: 1100px;

@@ -1,9 +1,8 @@
 import Card from "@/public/images/v1/card.png";
 import CheckCircle from "@/public/images/v1/check-circle.png";
 import Contentimg2 from "@/public/images/v1/contentimg2.png";
-import ContentThumb from "@/public/images/v1/contentthumb1.png";
+import ContentThumb from "@/public/images/v1/contentthumb1.jpg";
 import Icon4 from "@/public/images/v1/icon4.png";
-import Icon9 from "@/public/images/v1/icon9.png";
 import Shape3 from "@/public/images/v1/shape3.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -72,6 +71,14 @@ function WhyChooseUs() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-7">
+            <Image />
+          </div>
+          <div className="col-md-5"></div>
         </div>
       </div>
       <div className="container">
