@@ -15,8 +15,8 @@ function Cta() {
 					financing solutions are designed to meet the unique needs of your operations.
 					</p>
 					<FadeInUp className="extra-mt">
-						<Link className="sofax-default-btn pill" data-text="Create a free account" href="/sign-up">
-							<span className="button-wraper">Create a free account</span>
+						<Link className="sofax-default-btn pill" data-text="Contact our team" href="/contact-us">
+							<span className="button-wraper">Contact our team</span>
 						</Link>
 						<span className="cta-bottom">Instant fuel access. No credit card needed.</span>
 					</FadeInUp>
