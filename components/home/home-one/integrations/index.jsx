@@ -26,7 +26,7 @@ function Integrations() {
               <FadeInUp className="extra-mt">
                 <Link
                   className="sofax-default-btn pill"
-                  data-text="View all integrations"
+                  data-text="Schedule a consultation"
                   href="/contact-us"
                 >
                   <span className="button-wraper">Ready to Fuel Anywhere?</span>

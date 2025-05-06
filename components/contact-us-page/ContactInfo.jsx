@@ -20,7 +20,7 @@ function ContactInfo() {
 				</div>
 				<div className="sofax-iconbox-data2">
 					<h4>Give us a call</h4>
-					<p>Give us a ring at 011 575 6000. Every Monday-Friday from 8 am to 5 pm.</p>
+					<p>Give us a ring at 063 782 7289. Every Monday-Friday from 8 am to 5 pm.</p>
 				</div>
 			</div>
 			<div className="sofax-iconbox-wrap2">
@@ -29,7 +29,7 @@ function ContactInfo() {
 				</div>
 				<div className="sofax-iconbox-data2">
 					<h4>Email Us</h4>
-					<p>Drop us an email at info@kilomita.com and you'll receive a reply within 24 hours.</p>
+					<p>Drop us an email at info@kilomitatech.com and you'll receive a reply within 24 hours.</p>
 				</div>
 			</div>
 		</div>
