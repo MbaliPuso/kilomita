@@ -3167,7 +3167,7 @@ button#sofax-subscription-btn:hover {
 
 h1.post__title {
 	margin-bottom: 50px;
-	color: white;
+	color: var(--heading-color);
 }
 @media (max-width: 1400px) {
 	h1.post__title {
@@ -3183,7 +3183,7 @@ h1.post__title {
 	padding: 0 5px;
 	position: relative;
 	display: inline-block;
-	color: var(--accent-color);
+	color: var(--heading-color);
 }
 @media (max-width: 767px) {
 	.breadcrumbs ul li {
@@ -3214,7 +3214,7 @@ h1.post__title {
 }
 .breadcrumbs ul li a {
 	font-weight: 400;
-	color: #fdfde1;
+	color: var(--heading-color);
 }
 
 .sofax-navigation {
