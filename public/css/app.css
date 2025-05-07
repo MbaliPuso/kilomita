@@ -2304,6 +2304,19 @@ a.social-icon img {
 #sofax-submit-btn.pill {
 	border-radius: 50px;
 }
+
+@media (max-width: 576px) {
+	.hero-default-btn {
+		display: block!important;
+		margin: auto!important;
+	}
+
+	.hero-default-btn-video {
+		display: block!important;
+		margin: 10px auto!important;
+	}
+}
+
 .sofax-default-btn.btn-icon,
 #sofax-submit-btn.btn-icon {
 	padding: 9px 24px;

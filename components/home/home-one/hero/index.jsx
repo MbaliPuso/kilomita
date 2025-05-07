@@ -21,7 +21,7 @@ function HeroSection() {
               <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6">
                 <FadeInUp>
                   <Link
-                    className="sofax-default-btn pill"
+                    className="sofax-default-btn pill hero-default-btn"
                     data-text="Get started >>"
                     href="/contact-us"
                   >
@@ -32,7 +32,7 @@ function HeroSection() {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-6">
                 <FadeInUp>
                   <Link
-                    className="sofax-default-btn pill"
+                    className="sofax-default-btn pill hero-default-btn-video"
                     data-text="Watch Video"
                     onClick={() => setOpen(true)}
                     href="#"
