@@ -6,15 +6,15 @@ import HeroThumbs from "../hero/HeroThumbs";
 
 function Integrations() {
   return (
-    <section className="sofax-section-padding2 dark-bg" id="fuel-partners">
+    <section className="sofax-section-padding7 dark-bg" id="fuel-partners">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-6">
+        <div className="row d-flex align-items-center">
+          <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
             <FadeInUp className="integration-social-icon">
               <Image src={Icon10} alt="Icon" />
             </FadeInUp>
           </div>
-          <div className="col-lg-6">
+          <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
             <div className="sofax-default-content tac heading-color">
               <div className="tg-heading-subheading animation-style3">
                 <h2>Nationwide Fuel Access</h2>
@@ -36,7 +36,6 @@ function Integrations() {
             </div>
           </div>
         </div>
-        <HeroThumbs />
       </div>
     </section>
   );

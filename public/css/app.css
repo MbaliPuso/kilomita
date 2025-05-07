@@ -6922,6 +6922,7 @@ img.plasicon {
 .sofax-section-padding2 {
 	padding: 130px 0;
 }
+
 @media (max-width: 991px) {
 	.sofax-section-padding2 {
 		padding: 90px 0;
@@ -6997,6 +6998,10 @@ img.plasicon {
 	.sofax-section-padding6 {
 		padding-top: 120px;
 	}
+}
+
+.sofax-section-padding7 {
+	padding: 30px 0 0;
 }
 
 .sofax-section-title {
