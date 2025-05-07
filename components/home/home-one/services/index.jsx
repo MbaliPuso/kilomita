@@ -10,7 +10,7 @@ const servicesData = [
 	{
 		id: crypto.randomUUID(),
 		icon: Icon1,
-		title: "Ride-Hailing Platforms &amp; Fleets",
+		title: "Ride-Hailing Platforms & Fleets",
 		description:
 			"Ensure your drivers stay on the road with our seamless fuel financing options.​",
 	},
