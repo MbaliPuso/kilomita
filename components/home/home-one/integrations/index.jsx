@@ -2,6 +2,7 @@ import Icon10 from "@/public/images/v1/icon10.png";
 import Image from "next/image";
 import Link from "next/link";
 import FadeInUp from "../../../animation/FadeInUp";
+import HeroThumbs from "../hero/HeroThumbs";
 
 function Integrations() {
   return (
@@ -35,6 +36,7 @@ function Integrations() {
             </div>
           </div>
         </div>
+        <HeroThumbs />
       </div>
     </section>
   );

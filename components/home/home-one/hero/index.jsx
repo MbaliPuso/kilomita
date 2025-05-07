@@ -42,7 +42,7 @@ function HeroSection() {
                     </span>
                   </Link>
                 </FadeInUp>
-				<Video isOpen={isOpen} onClose={() => setOpen(false)} />
+                <Video isOpen={isOpen} onClose={() => setOpen(false)} />
               </div>
             </div>
           </div>
@@ -52,12 +52,6 @@ function HeroSection() {
             </div>
           </div>
         </div>
-        {/* <div className="sofax-subscription-field blog-details-subscribe-btn">
-					<input type="email" placeholder="Enter your email " />
-					<button id="sofax-subscription-btn" type="submit">
-						Discover our solutions
-					</button>
-				</div> */}
         <HeroThumbs />
       </div>
     </div>
