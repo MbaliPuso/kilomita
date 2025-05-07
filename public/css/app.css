@@ -7004,6 +7004,18 @@ img.plasicon {
 	padding: 30px 0 0;
 }
 
+@media (max-width: 991px) {
+	.sofax-section-padding7 {
+		padding: 40px 0;
+	}
+}
+
+@media (max-width: 1200px) {
+	.sofax-section-padding7 {
+		padding: 40px 0;
+	}
+}
+
 .sofax-section-title {
 	padding-bottom: 80px;
 }
