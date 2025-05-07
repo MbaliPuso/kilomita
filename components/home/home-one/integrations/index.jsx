@@ -14,7 +14,7 @@ function Integrations() {
             </FadeInUp>
           </div>
           <div className="col-lg-6">
-            <div className="sofax-default-content tac light-color">
+            <div className="sofax-default-content tac heading-color">
               <div className="tg-heading-subheading animation-style3">
                 <h2>Nationwide Fuel Access</h2>
               </div>
