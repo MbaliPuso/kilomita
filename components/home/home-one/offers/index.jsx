@@ -1,7 +1,7 @@
 import Icon1 from "@/public/images/v1/icon1.png";
 import Icon2 from "@/public/images/v1/icon2.png";
 import Icon3 from "@/public/images/v1/icon3.png";
-import Link from "next/link";
+import Icon5 from "@/public/images/v1/icon5.png";
 import FadeInStagger from "../../../animation/FadeInStagger";
 import FadeInUp from "../../../animation/FadeInUp";
 import ServiceCard from "./ServiceCard";
@@ -30,7 +30,7 @@ const servicesData = [
 	},
 	{
 		id: crypto.randomUUID(),
-		icon: Icon1,
+		icon: Icon5,
 		title: "Real-Time Tracking",
 		description:
 			"Monitor fuel usage and expenses effortlessly.",
