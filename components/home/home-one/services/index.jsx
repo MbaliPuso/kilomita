@@ -1,6 +1,6 @@
-import Icon1 from "@/public/images/v1/icon1.png";
-import Icon2 from "@/public/images/v1/icon2.png";
-import Icon3 from "@/public/images/v1/icon3.png";
+import Icon11 from "@/public/images/v1/icon11.png";
+import Icon12 from "@/public/images/v1/icon12.png";
+import Icon13 from "@/public/images/v1/icon13.png";
 import Link from "next/link";
 import FadeInStagger from "../../../animation/FadeInStagger";
 import FadeInUp from "../../../animation/FadeInUp";
@@ -9,21 +9,21 @@ import ServiceCard from "./ServiceCard";
 const servicesData = [
 	{
 		id: crypto.randomUUID(),
-		icon: Icon1,
+		icon: Icon11,
 		title: "Ride-Hailing Platforms & Fleets",
 		description:
 			"Ensure your drivers stay on the road with our seamless fuel financing options.​",
 	},
 	{
 		id: crypto.randomUUID(),                                                                                                                                                                              
-		icon: Icon2,
+		icon: Icon12,
 		title: "E-commerce Delivery Operators",
 		description:
 			"Scale your delivery operations without the upfront fuel costs.",
 	},
 	{
 		id: crypto.randomUUID(),
-		icon: Icon3,
+		icon: Icon13,
 		title: "Independent Contractors:",
 		description:
 			"Access the fuel you need to keep your business running smoothly.",
