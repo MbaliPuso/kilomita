@@ -3,7 +3,10 @@ import CheckCircle from "@/public/images/v1/check-circle.png";
 import Contentimg2 from "@/public/images/v1/contentimg2.png";
 import Contentimg3 from "@/public/images/v1/scooter.png";
 import ContentThumb from "@/public/images/v1/contentthumb1.jpg";
-import Icon4 from "@/public/images/v1/icon4.png";
+import EasyOnboarding from "@/public/images/v1/icon4.png";
+import ImmediateFuel from "@/public/images/v1/icon14.png";
+import RepaymentOptions from "@/public/images/v1/icon15.png";
+import CreditGrowth from "@/public/images/v1/icon16.png";
 import Shape3 from "@/public/images/v1/shape3.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -97,7 +100,7 @@ function WhyChooseUs() {
               <div className="extra-mt">
                 <div className="sofax-iconbox-wrap2">
                 <div className="sofax-iconbox-icon2">
-                    <Image src={Icon4} alt="icon" />
+                    <Image src={EasyOnboarding} alt="Easy Onboarding by kiloMITA" />
                     <Image />
                   </div>
                   <div className="sofax-iconbox-data2">
@@ -107,7 +110,7 @@ function WhyChooseUs() {
                 </div>
                 <div className="sofax-iconbox-wrap2">
                   <div className="sofax-iconbox-icon2">
-                    <Image src={Icon4} alt="icon" />
+                    <Image src={ImmediateFuel} alt="Immediate Fuel Access with kiloMITA" />
                   </div>
                   <div className="sofax-iconbox-data2">
                     <h4>Immediate Fuel Access</h4>
@@ -116,7 +119,7 @@ function WhyChooseUs() {
                 </div>
                 <div className="sofax-iconbox-wrap2">
                   <div className="sofax-iconbox-icon2">
-                    <Image src={Icon4} alt="icon" />
+                    <Image src={RepaymentOptions} alt="Choose repayment options" />
                   </div>
                   <div className="sofax-iconbox-data2">
                     <h4>Choose Repayment Options</h4>
@@ -125,7 +128,7 @@ function WhyChooseUs() {
                 </div>
                 <div className="sofax-iconbox-wrap2">
                   <div className="sofax-iconbox-icon2">
-                    <Image src={Icon4} alt="icon" />
+                    <Image src={CreditGrowth} alt="Credit can grow in kiloMITA" />
                   </div>
                   <div className="sofax-iconbox-data2">
                     <h4>Growth Oriented Credit</h4>
