@@ -5989,7 +5989,7 @@ a.sofax-connect-login img {
 	}
 }
 
-@media (max-width: 440px) {
+@media (max-width: 371px) {
 	.sofax-content-img2 .app-screen {
 		max-width: 60%;
 		display: block;
@@ -5999,7 +5999,29 @@ a.sofax-connect-login img {
 	.sofax-content-img2 .scooter {
 		max-width: 150px;
 		top: 290px;
-    left: 230px;
+        left: 230px;
+	}
+}
+
+@media (max-width: 767px) {
+	.sofax-content-img2 .app-screen {
+		max-width: 60%;
+		display: block;
+		margin: auto;
+	}
+
+	.sofax-content-img2 .scooter {
+		max-width: 200px;
+		top: 450px;
+        left: 360px;
+	}
+}
+
+@media (max-width: 992px) {
+	.sofax-content-img2 .scooter {
+		max-width: 280px;
+		top: 470px;
+        left: 440px;
 	}
 }
 
