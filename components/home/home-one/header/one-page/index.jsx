@@ -17,7 +17,7 @@ const menuItemsData = [
 	},
 	{
 		title: "Fuel Partners",
-		url: "#fuel-partner",
+		url: "#fuel-partners",
 	},
 ];
 function Header() {

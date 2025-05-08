@@ -1,6 +1,7 @@
 import ModalVideo from "react-modal-video";
 
-const Video = ({ isOpen, onClose }) => {  
+const Video = ({ isOpen, onClose }) => {
+  
   return (
     <ModalVideo
       channel="youtube"
