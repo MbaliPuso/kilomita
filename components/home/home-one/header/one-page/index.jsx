@@ -54,7 +54,7 @@ function Header() {
 					</div>
 					<HeaderButton />
 
-					<MobileNavbar menuItemsData={menuItemsData} title="Sofax" onePage={true} />
+					<MobileNavbar menuItemsData={menuItemsData} title="kiloMITA" onePage={true} />
 				</nav>
 			</div>
 		</header>

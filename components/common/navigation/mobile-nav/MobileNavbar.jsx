@@ -47,7 +47,7 @@ const MobileNavbar = ({ menuItemsData, title, onePage }) => {
 			{showMenu && (
 				<motion.nav className="mobile-navbar" variants={animationVariants} initial="initial" animate="animate">
 					<div className="mobile-menu-head">
-						<div className="mobile-menu-head--title">KILOMITA</div>
+						<div className="mobile-menu-head--title">{title}</div>
 						<div className="mobile-menu-head--close" onClick={() => setShowMenu(false)}>
 							&times;
 						</div>
