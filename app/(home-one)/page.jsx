@@ -5,7 +5,6 @@ import Offers from "@/components/home/home-one/offers";
 import Services from "@/components/home/home-one/services";
 import WhyChooseUs from "@/components/home/home-one/why-choose-us";
 import PlatformSlider from "@/components/home/home-one/platforms-slider";
-import "yet-another-react-lightbox/styles.css";
 
 function HomeOne() {
   return (

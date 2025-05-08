@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import FadeInUp from "@/components/animation/FadeInUp";
 import Link from "next/link";
 import Image from "next/image";
@@ -10,6 +10,11 @@ import Video from "./Video";
 
 function HeroSection() {
   const [isOpen, setOpen] = useState(false);
+
+  useEffect(() => {
+    // Automatically open modal on mount
+    setOpen(true);
+  }, []);
 
   return (
     <div className="sofax-hero-section overflow-hidden" id="hero">
