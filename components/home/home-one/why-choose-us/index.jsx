@@ -78,7 +78,7 @@ function WhyChooseUs() {
         <div className="row">
           <div className="col-lg-5 order-lg-2">
             <FadeInRight className="sofax-content-img2 position-ralatiove ml-31">
-              <Image src={Contentimg2} alt="kilomita app screen" />
+              <Image src={Contentimg2} className="app-screen" alt="kilomita app screen" />
               <Image src={Contentimg3} className="scooter" alt="kilomita scooter delivery" />
               <div className="sofax-content-shape-v1">
                 <Image src={Shape3} alt="shape" />

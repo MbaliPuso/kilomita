@@ -5989,6 +5989,20 @@ a.sofax-connect-login img {
 	}
 }
 
+@media (max-width: 440px) {
+	.sofax-content-img2 .app-screen {
+		max-width: 60%;
+		display: block;
+		margin: auto;
+	}
+
+	.sofax-content-img2 .scooter {
+		max-width: 150px;
+		top: 290px;
+    left: 230px;
+	}
+}
+
 .sofax-features-thumb {
 	text-align: center;
 	margin-top: 30px;

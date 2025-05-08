@@ -24,7 +24,8 @@
     "react-modal-video": "^2.0.2",
     "react-responsive-masonry": "^2.6.0",
     "react-toastify": "^10.0.6",
-    "swiper": "^11.1.15"
+    "swiper": "^11.1.15",
+    "yet-another-react-lightbox": "^3.23.0"
   },
   "devDependencies": {
     "eslint": "^8",

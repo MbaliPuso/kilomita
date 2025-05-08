@@ -1,24 +1,24 @@
 import Cta from "@/components/home/home-one/cta";
 import HeroSection from "@/components/home/home-one/hero";
 import Integrations from "@/components/home/home-one/integrations";
-import LogoSlider from "@/components/home/home-one/logo-slider";
 import Offers from "@/components/home/home-one/offers";
 import Services from "@/components/home/home-one/services";
 import WhyChooseUs from "@/components/home/home-one/why-choose-us";
 import PlatformSlider from "@/components/home/home-one/platforms-slider";
+import "yet-another-react-lightbox/styles.css";
 
 function HomeOne() {
-	return (
-		<>
-			<HeroSection />
-			<Offers />
-			<WhyChooseUs />
-			<Services />
-			<PlatformSlider />
-			<Integrations />
-			<Cta />
-		</>
-	);
+  return (
+    <>
+      <HeroSection />
+      <Offers />
+      <WhyChooseUs />
+      <Services />
+      <PlatformSlider />
+      <Integrations />
+      <Cta />
+    </>
+  );
 }
 
 export default HomeOne;
