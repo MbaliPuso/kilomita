@@ -5989,7 +5989,7 @@ a.sofax-connect-login img {
 	}
 }
 
-@media (max-width: 371px) {
+@media (max-width: 381px) {
 	.sofax-content-img2 .app-screen {
 		max-width: 60%;
 		display: block;
@@ -5997,9 +5997,9 @@ a.sofax-connect-login img {
 	}
 
 	.sofax-content-img2 .scooter {
-		max-width: 150px;
-		top: 290px;
-        left: 230px;
+		max-width: 150px!important;
+		top: 290px!important;
+        left: 230px!important;
 	}
 }
 
