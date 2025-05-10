@@ -40,11 +40,11 @@ const sliderData = [
 	},
 	{
 		id: crypto.randomUUID(),
-		img: Bolt,
+		img: MrDelivery,
 	},
 	{
 		id: crypto.randomUUID(),
-		img: MrDelivery,
+		img: Bolt,
 	},
 	{
 		id: crypto.randomUUID(),
