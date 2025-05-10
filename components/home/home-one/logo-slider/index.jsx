@@ -2,7 +2,7 @@
 import InDrive from "@/public/images/v1/indrive-logo.png";
 import Droppa from "@/public/images/v1/droppa-logo.png";
 import Zulzi from "@/public/images/v1/zulzi-logo.png";
-import Onfleet from "@/public/images/v1/onfleet-logo.png";
+import Onfleet from "@/public/images/v1/onfleet.png";
 import StandardBank from "@/public/images/v1/standard-bank-logo.png";
 import Image from "next/image";
 import { Autoplay } from "swiper/modules";

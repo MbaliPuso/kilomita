@@ -3,7 +3,8 @@ import StandardBank from "@/public/images/v1/standard-bank-logo.png";
 import Zulzi from "@/public/images/v1/zulzi-logo.png";
 import InDrive from "@/public/images/v1/indrive-logo.png";
 import Droppa from "@/public/images/v1/droppa-logo.png";
-import Onfleet from "@/public/images/v1/onfleet-logo.png";
+import Onfleet from "@/public/images/v1/onfleet.png";
+import Tfn from "@/public/images/v1/tfn.png";
 import Uber from "@/public/images/v1/uber-logo.png";
 import UberEats from "@/public/images/v1/uber-eats.png";
 import Bolt from "@/public/images/v1/bolt-logo.png";
@@ -32,6 +33,10 @@ const sliderData = [
 	{
 		id: crypto.randomUUID(),
 		img: Onfleet,
+	},
+	{
+		id: crypto.randomUUID(),
+		img: Tfn,
 	},
 	{
 		id: crypto.randomUUID(),
