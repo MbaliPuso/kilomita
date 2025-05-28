@@ -20,7 +20,7 @@ function ContactInfo() {
 				</div>
 				<div className="sofax-iconbox-data2">
 					<h4>Whatsapp Us</h4>
-					<p>Text us on 063 782 7289. Every Monday-Friday from 8 am to 5 pm.</p>
+					<p>Text us on 082 639 8767. Every Monday-Friday from 8 am to 5 pm.</p>
 				</div>
 			</div>
 			<div className="sofax-iconbox-wrap2">
