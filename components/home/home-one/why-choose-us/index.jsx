@@ -48,7 +48,7 @@ function WhyChooseUs() {
                     </p>
                   </div>
                 </div>
-                <div className="sofax-iconbox-wrap2">
+                {/* <div className="sofax-iconbox-wrap2">
                   <div className="sofax-iconbox-icon2">
                     <Image src={CheckCircle} alt="check" />
                   </div>
@@ -59,7 +59,7 @@ function WhyChooseUs() {
                       space.
                     </p>
                   </div>
-                </div>
+                </div> */}
                 <div className="sofax-iconbox-wrap2">
                   <div className="sofax-iconbox-icon2">
                     <Image src={CheckCircle} alt="check" />
